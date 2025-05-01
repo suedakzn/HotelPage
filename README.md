@@ -13,23 +13,6 @@ Tema Değiştirme: Kullanıcılar, açık ve koyu tema arasında geçiş yapabil
 Çoklu Dil Desteği: Çoklu dil seçeneği eklenmiştir (bu özellik ileride daha da geliştirilebilir).
 
 ---
-### Yapılanlar
-1. Hotel Details Sayfası
-Otelin adı, konumu, açıklaması, puanı, ve fiyatı ile birlikte görsel olarak düzenlendi.
-
-Otelin puanı ve değerlendirme sayısı gösterildi.
-
-Check-in ve Check-out saatleri belirtildi.
-
-Otelin açıklama kısmı verildi.
-
-2. Koyu/Açık Tema Desteği
-Projeye koyu ve açık tema geçişi eklendi. Kullanıcılar, uygulama içinde kolayca tema değiştirebiliyor.
-
-3. Çoklu Dil Desteği
-Uygulama, gelecekte daha fazla dil eklenebilmesi amacıyla çoklu dil desteği içeriyor.
-
----
 ### Proje Yapısı
 Ana Aktivite: Otel detaylarını kullanıcıya sunan ana ekran.
 
