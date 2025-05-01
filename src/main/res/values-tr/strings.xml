@@ -1,0 +1,31 @@
+<resources>
+    <!-- Uygulama adı -->
+    <string name="app_name" translatable="false">HotelSayfası</string>
+
+    <string name="hotel_details">Otel Detayları</string>
+
+    <!-- Otel Adı ve Yıldızlar -->
+    <string name="hotel_name">Grand Royal Otel ⭐⭐⭐⭐</string>
+
+    <!-- Konum -->
+    <string name="hotel_location">📍 Antalya, şehir merkezine 3.7 km</string>
+
+    <!-- Check-in ve Check-out Zamanı -->
+    <string name="check_in_out">Giriş: 14:00   |   Çıkış: 12:00</string>
+
+    <!-- Açıklama -->
+    <string name="hotel_description">Akdeniz’in kalbinde lüks ve konforu yaşayın. Grand Royal Hotel, benzersiz bir tatil deneyimi sunuyor.</string>
+
+    <!-- Puan -->
+    <string name="hotel_score">8.0 Çok İyi (1241 yorum)</string>
+
+    <!-- Fiyat -->
+    <string name="hotel_price">₺ 2.596 / gece</string>
+
+    <!-- Rezervasyon Butonu -->
+    <string name="reserve_button">REZERVASYON YAP</string>
+
+    <!-- Favori -->
+    <string name="favorite_button">Favorilere Ekle</string>
+</resources>
+

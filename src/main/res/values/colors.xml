@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Genel Renkler -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primary">#EF944D</color> <!-- Örnek, kendinize uygun renk kodu kullanın -->
+    <color name="secondary">#FF03DAC5</color>
+    <color name="textColor">#000000</color>
+
+    <!-- Dark Mode Renkleri -->
+    <color name="primary_dark">#E2811C</color>
+    <color name="secondary_dark">#018786</color>
+    <color name="textColor_dark">#FFFFFF</color>
+</resources>

@@ -1,0 +1,47 @@
+<!-- themes.xml (Dark Mode) -->
+<resources>
+
+    <!-- Base Theme for Dark Mode -->
+    <style name="Base.Theme.HotelPage" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Dark Mode Primary color (Ana renk) -->
+        <item name="colorPrimary">@color/primary_dark</item> <!-- Dark mode ana renk (mor tonları) -->
+
+        <!-- Dark Mode Secondary color (İkincil renk) -->
+        <item name="colorSecondary">@color/secondary_dark</item> <!-- Dark mode ikincil renk (turkuaz) -->
+
+        <!-- Dark Mode Arka Plan Rengi -->
+        <item name="colorBackground">@color/black</item> <!-- Koyu arka plan (dark mode) -->
+
+        <!-- Dark Mode Metin Rengi -->
+        <item name="android:textColor">@color/textColor_dark</item> <!-- Beyaz metin rengi (dark mode) -->
+
+        <!-- Buton Rengi (Karanlık modda butonlar için renk) -->
+        <item name="colorButtonNormal">@color/buttonColor_dark</item> <!-- Koyu buton rengi -->
+
+        <!-- Accent color (Vurgulama rengi) -->
+        <item name="colorAccent">@color/secondary_dark</item> <!-- Vurgulama rengi (dark mode) -->
+
+        <!-- Yüzey Rengi (Surface color) -->
+        <item name="colorSurface">@color/surfaceColor_dark</item> <!-- Kartlar ve modal pencere arka planı -->
+
+        <!-- Başlık Rengi (Dark Mode Text Rengi) -->
+        <item name="android:textColorPrimary">@color/textColor_dark</item> <!-- Başlıklar için metin rengi -->
+
+        <!-- Durum Çubuğu Rengi -->
+        <item name="android:statusBarColor">@color/statusBarColor_dark</item> <!-- Koyu durum çubuğu rengi -->
+
+        <!-- Navigasyon Çubuğu Rengi -->
+        <item name="android:navigationBarColor">@color/navigationBarColor_dark</item> <!-- Koyu navigasyon çubuğu rengi -->
+
+        <!-- Bölücü Çizgi Rengi -->
+        <item name="android:divider">@color/dividerColor_dark</item> <!-- Bölücü çizgi rengi -->
+
+    </style>
+
+    <!-- Dark Mode Theme -->
+    <style name="Theme.HotelPage" parent="Base.Theme.HotelPage">
+        <!-- Dark Mode Special Customizations (Optional) -->
+        <!-- Dark mode için özelleştirme ekleyebilirsiniz -->
+    </style>
+
+</resources>

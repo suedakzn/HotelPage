@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorBackground"
+    android:padding="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Üst Başlık Alanı -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/primary"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_hotel"
+                android:layout_marginEnd="8dp"
+                app:tint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="@string/hotel_details"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- Otel Görseli -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Favori İkonu -->
+            <ImageView
+                android:id="@+id/hotelImage"
+                android:layout_width="match_parent"
+                android:layout_height="246dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hotel_room" />
+
+            <ImageView
+                android:id="@+id/favIcon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_favorite_border"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="8dp"
+                android:layout_alignParentTop="true"
+                app:tint="@android:color/white" />
+        </RelativeLayout>
+
+        <!-- Otel Adı + Yıldız -->
+        <TextView
+            android:id="@+id/hotelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel_name"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Konum ve Uzaklık -->
+        <TextView
+            android:id="@+id/hotelLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel_location"
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/hotelDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel_description"
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="12dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Puan Kutusu -->
+        <TextView
+            android:id="@+id/hotelScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/hotel_score"
+            android:textColor="@android:color/white"
+            android:background="@drawable/score_background"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Check-in / Check-out -->
+        <TextView
+            android:id="@+id/hotelHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/check_in_out"
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Fiyat -->
+        <TextView
+            android:id="@+id/mainPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hotel_price"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp" />
+
+        <!-- Rezervasyon Butonu -->
+        <Button
+            android:id="@+id/reserveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reserve_button"
+            android:backgroundTint="@color/primary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,46 @@
+<!-- themes.xml (Light Mode) -->
+<resources>
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.HotelPage" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary color (Ana renk) -->
+        <item name="colorPrimary">@color/primary</item> <!-- Genellikle başlık, ikonlar, vs. -->
+
+        <!-- Secondary color (İkincil renk) -->
+        <item name="colorSecondary">@color/secondary</item> <!-- Genellikle butonlar, vurgulu öğeler -->
+
+        <!-- Background color (Arka plan rengi) -->
+        <item name="colorBackground">@color/white</item> <!-- Beyaz arka plan -->
+
+        <!-- Text color (Metin rengi) -->
+        <item name="android:textColor">@color/textColor</item> <!-- Siyah metin rengi -->
+
+        <!-- Button background color -->
+        <item name="colorButtonNormal">@color/buttonColor</item> <!-- Buton renkleri için -->
+
+        <!-- Accent color (Vurgulama rengi) -->
+        <item name="colorAccent">@color/secondary</item> <!-- Genellikle butonlar, bağlantılar, sliderlar vb. -->
+
+        <!-- Cardview background (Kart arka planı) -->
+        <item name="colorSurface">@color/surfaceColor</item> <!-- Kartların ve genel yüzeylerin arka planı -->
+
+        <!-- On background text color -->
+        <item name="android:textColorPrimary">@color/textColorPrimary</item> <!-- Başlıklar için metin rengi -->
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/statusBarColor</item> <!-- Durum çubuğu için renk -->
+
+        <!-- Navigation bar color -->
+        <item name="android:navigationBarColor">@color/navigationBarColor</item> <!-- Navigasyon çubuğu için renk -->
+
+        <!-- Divider color -->
+        <item name="android:divider">@color/dividerColor</item> <!-- Bölücü çizgilerin rengi -->
+    </style>
+
+    <!-- Theme inheriting from the Base Theme -->
+    <style name="Theme.HotelPage" parent="Base.Theme.HotelPage">
+        <!-- Light Mode Special Customizations (Optional) -->
+        <!-- You can add more customizations specific to this theme if needed -->
+    </style>
+
+</resources>
