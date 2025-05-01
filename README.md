@@ -51,6 +51,7 @@ Gradle: Proje derleme aracıdır.
 
 ![image](https://github.com/user-attachments/assets/bb8485ab-cbdf-4ec4-ac56-a51040b363c0)
 ![image](https://github.com/user-attachments/assets/2893fa92-3a96-4086-be49-abcafe011099)
+
 ![image](https://github.com/user-attachments/assets/3d409a01-0348-43b4-9fd5-447415263661)
 ![image](https://github.com/user-attachments/assets/e121d18d-2ce9-4cb5-a3e6-9875b0e6e674)
 
